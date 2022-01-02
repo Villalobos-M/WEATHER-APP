@@ -5,7 +5,7 @@
 }
 .card {
    background-color: rgba(53, 52, 52, 0.534);
-   height: 75%;
+   height: 65%;
    width: 85%;
    border-radius: 1rem;
    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -39,6 +39,10 @@
 }
 .degrees > p {
    font-size: 40px;
+   margin-top: 0.5rem;
+}
+.degrees > h4 {
+   margin-top: 0.5rem;
 }
 .icon-weather {
    width: 40%;
@@ -50,7 +54,7 @@
 }
 .details {
    background-color: rgba(44, 44, 44, 0.527);
-   height: 65%;
+   height: 85%;
    width: 95%;
 }
 .details > p {

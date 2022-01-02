@@ -58,7 +58,7 @@ const WheatherCard = ({name, count, celcius, fahr, maxCelius, maxFahr, minCelciu
                         <p>Details<i className="fas fa-temperature-low"></i></p>
                         <p>Pressure: {pressure} hPa</p>
                         <p><i className="fas fa-tint"></i>Humidity: {humidity}%</p>
-                        <p><i className="fas fa-wind"></i>Wind: {speed} km/hr </p>
+                        <p><i className="fas fa-wind"></i>Wind: {speed} km/h </p>
                     </div>
                     </section>
                     
