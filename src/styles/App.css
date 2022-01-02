@@ -45,4 +45,16 @@
 }
 h1 {
    margin-bottom: 1rem;
+   color: rgb(198, 215, 218);
+}
+@media screen and (min-width: 600px) {
+   h1 {
+      color: black;
+   }
+}
+
+@media screen and (min-width: 800px) {
+   h1 {
+      color: black;
+   }
 }
