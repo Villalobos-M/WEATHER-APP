@@ -23,7 +23,6 @@ const WheatherCard = ({name, count, celcius, fahr, maxCelius, maxFahr, minCelciu
                  setMinGradees(minFahr)
                  break;
          }
-        console.log(type);
      }, [celcius, fahr, type, maxFahr, minFahr, minCelcius, maxCelius])
 
      const handleFtoC = () => {
@@ -56,10 +55,10 @@ const WheatherCard = ({name, count, celcius, fahr, maxCelius, maxFahr, minCelciu
                     <p><i className="fas fa-cloud"></i>"{descr}"</p>
                     <section className='details-container' >
                         <div className='details' >
-                        <p>Details</p>
+                        <p>Details<i className="fas fa-temperature-low"></i></p>
                         <p>Pressure: {pressure} hPa</p>
-                        <p>Humidity: {humidity}%</p>
-                        <p>Speed: {speed} km/hr </p>
+                        <p><i className="fas fa-tint"></i>Humidity: {humidity}%</p>
+                        <p><i className="fas fa-wind"></i>Wind: {speed} km/hr </p>
                     </div>
                     </section>
                     
