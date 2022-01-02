@@ -1,0 +1,99 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+.card {
+   background-color: rgba(53, 52, 52, 0.534);
+   height: 75%;
+   width: 45%;
+   border-radius: 1rem;
+   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+   backdrop-filter: blur(2px);
+   color: rgb(241, 239, 236);
+}
+.first-section {
+   height: 20%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.first-section > h2 {
+   margin-bottom: 1rem;
+}
+.second-section {
+   display: flex;
+   height: 60%;
+}
+.icon-weather > div > img {
+   width: 8rem;
+}
+.max-min-gadees {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 0.5rem;
+}
+.max-min-gadees > p {
+   font-size: 15px;
+}
+.degrees > p {
+   font-size: 60px;
+}
+.icon-weather {
+   width: 40%;
+}
+.icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.details {
+   background-color: rgba(44, 44, 44, 0.527);
+   height: 75%;
+   width: 70%;
+}
+.details > p {
+   margin-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   border-bottom: solid 0.5px rgba(206, 198, 198, 0.472);
+   font-size: 16px;
+}
+.details-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+.fas {
+   margin-right: 5px;
+}
+
+.degrees {
+   display: flex;
+   justify-content: center;
+}
+.info-weather {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   width: 60%;
+}
+.info-weather > p {
+   margin-top: 0.5rem;
+   font-size: 20px;
+}
+.three-section {
+   height: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.three-section > button {
+   background-color: rgba(235, 235, 235, 0.5);
+   border: none;
+   border-radius: 3px;
+   width: 6.5rem;
+   height: 1.5rem;
+}
