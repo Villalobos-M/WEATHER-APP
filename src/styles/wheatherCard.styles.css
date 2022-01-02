@@ -5,7 +5,7 @@
 }
 .card {
    background-color: rgba(53, 52, 52, 0.534);
-   height: 65%;
+   height: 75%;
    width: 85%;
    border-radius: 1rem;
    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -13,7 +13,7 @@
    color: rgb(241, 239, 236);
 }
 .first-section {
-   height: 20%;
+   height: 15%;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -24,10 +24,14 @@
 }
 .second-section {
    display: flex;
-   height: 60%;
+   flex-direction: column;
+   height: 75%;
 }
 .icon-weather > div > img {
    width: 8rem;
+}
+.gradees-cf {
+   display: flex;
 }
 .max-min-gadees {
    display: flex;
@@ -37,15 +41,18 @@
 .max-min-gadees > p {
    font-size: 15px;
 }
-.degrees > p {
+.gradees-cf > p {
    font-size: 40px;
    margin-top: 0.5rem;
 }
-.degrees > h4 {
+.gradees-cf > h4 {
    margin-top: 0.5rem;
 }
 .icon-weather {
-   width: 40%;
+   width: 100%;
+   height: 35%;
+   display: flex;
+   justify-content: space-evenly;
 }
 .icon {
    display: flex;
@@ -75,6 +82,7 @@
 
 .degrees {
    display: flex;
+   flex-direction: column;
    justify-content: center;
 }
 .info-weather {
@@ -82,14 +90,15 @@
    flex-direction: column;
    text-align: center;
    justify-content: center;
-   width: 60%;
+   width: 100%;
+   height: 90%;
 }
 .info-weather > p {
    margin-top: 0.5rem;
    font-size: 20px;
 }
 .three-section {
-   height: 20%;
+   height: 10%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -107,13 +116,38 @@
       width: 65%;
       padding: 0.5rem 1rem 0.5rem 1rem;
    }
-   .degrees > p {
+   .gradees-cf > p {
       font-size: 55px;
+   }
+   .gradees-cf {
+      display: flex;
+      justify-content: center;
    }
    .details {
       background-color: rgba(44, 44, 44, 0.527);
       height: 75%;
       width: 80%;
+   }
+   .first-section {
+      height: 20%;
+   }
+   .second-section {
+      display: flex;
+      flex-direction: row;
+      height: 60%;
+   }
+
+   .icon-weather {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 40%;
+   }
+   .info-weather {
+      width: 60%;
+   }
+   .three-section {
+      height: 20%;
    }
 }
 
@@ -123,12 +157,12 @@
       width: 50%;
       padding: 0.5rem 1.5rem 0.5rem 1.5rem;
    }
-   .degrees > p {
+   .gradees-cf > p {
       font-size: 60px;
    }
    .details {
       background-color: rgba(44, 44, 44, 0.527);
-      height: 75%;
+      height: 80%;
       width: 70%;
    }
 }

@@ -39,13 +39,15 @@ const WheatherCard = ({name, count, celcius, fahr, maxCelius, maxFahr, minCelciu
                 
             <section className='second-section' >
                 <article className='icon-weather' >
-                    
-                    <div className='max-min-gadees' >
-                        <p><i className="fas fa-long-arrow-alt-up"></i>{maxGradees}°</p>
-                        <p><i className="fas fa-long-arrow-alt-down"></i>{minGradees}°</p>
-                    </div>
+
                     <div className='degrees' >
-                        {gradees}<h4>{type? "°C" : "°F"}</h4>
+                         <div className='max-min-gadees' >
+                            <p><i className="fas fa-long-arrow-alt-up"></i>{maxGradees}°</p>
+                            <p><i className="fas fa-long-arrow-alt-down"></i>{minGradees}°</p>
+                        </div>
+                        <div className='gradees-cf' >
+                            {gradees}<h4>{type? "°C" : "°F"}</h4>
+                        </div>
                     </div>
                     <div className='icon' >
                         <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt=""/>
